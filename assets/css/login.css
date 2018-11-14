@@ -1,0 +1,24 @@
+/* 登录框的设置 */
+/* body 的font-size为14px，因此1em为14px */
+.login-body{
+   /* background: url('../img/bg.png') top center fixed no-repeat;*/
+}
+.login-box{
+    width:48.57em;
+    height:100px;
+    border:1px solid red;
+    margin:0 auto;
+
+}
+.login-box h2{
+    width:100%;
+    text-align:center;
+    /*color:white;*/
+}
+/* 441px 58px */
+
+.login-input{
+    width:31.53em;
+    height:4.14em;
+    border:1px solid #b5b5b5;
+}
