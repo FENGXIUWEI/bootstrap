@@ -13,21 +13,46 @@
     <!--bootstrap.js 引入-->
     <script src="assets/js/bootstrap.js"></script>
 </head>
-<body class="login-body">
-    <div class="login-box">
-        <h2 >航空维修工程管理系统</h2>
-        <div>
-            <form class="form">
-                <div class="form-group">
-                    <input class="login-input"/>
-                </div>
-                <div class="form-group">
-                    <input class="login-input"/>
-                </div>
-
-            </form>
+<body >
+    <div class="login-header">
+        <div class="header-left">
+            <img src="assets/img/login/loginsj.png"/>
+            欢迎登录 Welcome !
         </div>
+        <div class="header-right">
+            <a href="#">
+                帮助 Help
+            </a>
+        </div>
+    </div>
 
+    <div class="login-body">
+        <div class="login-wrapper">
+            <h2 >航空维修工程管理系统</h2>
+            <div class="login-box">
+                <form class="form">
+                    <div class="login-content">
+                        <div class="form-group">
+                            <input class="login-input login-user" autocomplete="off" type="text"/>
+                        </div>
+                        <div class="form-group">
+                            <input class="login-input login-password" type="password"/>
+                        </div>
+                        <div class="form-group">
+                            <label class="login-checkbox">
+                                <input type="checkbox"/>
+                                <span class="checkbox-span"></span>
+                                <span>Remember me</span>
+                            </label>
+                        </div>
+                        <div class="form-group">
+                            <button class="login-btn" type="button">登录</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+        </div>
     </div>
 </body>
 </html>

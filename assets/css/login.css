@@ -1,24 +1,104 @@
 /* 登录框的设置 */
 /* body 的font-size为14px，因此1em为14px */
-.login-body{
-   /* background: url('../img/bg.png') top center fixed no-repeat;*/
-}
-.login-box{
-    width:48.57em;
-    height:100px;
+.login-header{
+    height:35px;
+    line-height:35px;
+    color:white;
+    font-size:13px;
+    background:#54565b;
+    padding: 0 12px;
+    overflow:hidden;
     border:1px solid red;
+}
+.header-left{
+    float:left;
+}
+.header-right{
+    float:right;
+}
+.header-right a{
+    color:white;
+}
+.login-body{
+    height:100px;
+    background:url('../img/login/bg.png') no-repeat;
+    border:1px solid red;
+}
+.login-wrapper{
+    width:375px;
     margin:0 auto;
-
 }
-.login-box h2{
+
+.login-wrapper>h2{
     width:100%;
+    font-size:29px;
     text-align:center;
-    /*color:white;*/
 }
-/* 441px 58px */
-
-.login-input{
-    width:31.53em;
-    height:4.14em;
+.login-wrapper .login-box{
+    width:100%;
+    padding-top:28px;
+    padding-bottom:18px;
     border:1px solid #b5b5b5;
+    background:white;
+}
+.login-box .login-content{
+    width:300px;
+    margin:0 auto;
+}
+.login-content .login-user{
+    background:url('../img/login/username.png') no-repeat 12px 50%;
+}
+.login-content .login-password{
+    background:url('../img/login/password.png') no-repeat 12px 50%;
+}
+.login-content .login-input{
+    width:100%;
+    height:44px;
+    border:1px solid #b5b5b5;
+    padding-left:40px;
+    color:#333;
+}
+.login-content .login-checkbox{
+    font-weight:normal;
+    font-size:0px;
+    height:19px;
+    position:relative;
+}
+.login-checkbox .checkbox-span{
+    position:absolute;
+    left:0px;
+    width:19px;
+    height:19px;
+    background:url('../img/login/sprite.png') no-repeat 0px 0px;
+}
+.login-checkbox input:checked +span{
+    background:url('../img/login/sprite.png') no-repeat -76px 0px;
+}
+.checkbox-span + span{
+    display:inline-block;
+    vertical-align:bottom;
+    margin-left:15px;
+    font-size:15px;
+}
+.login-checkbox input{
+    opacity: 0;
+}
+.login-content .login-btn{
+    width:100%;
+    height:44px;
+    line-height:44px;
+    color:white;
+    border:0px;
+    font-size:18px;
+    background:#3e65bc;
+}
+@media(max-width: 400px){
+    .login-wrapper{
+        width: 95%;
+        margin:0 auto;
+    }
+    .login-box .login-content{
+        width:95%;
+        margin:0 auto;
+    }
 }
