@@ -2,9 +2,55 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <!--移动端优先的设置-->
+    <meta name="viewport" content="width=device-width;initial-width=1.0;minimum-width=1.0;maximum-width=1.0;user-scalable=no" />
+    <title>欢迎登录航空维修工程管理系统</title>
+    <!--bootstrap css 样式引入-->
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/css/loginnewq.css">
+    <!--jquery 引入-->
+    <script src="assets/js/jquery-1.10.2.min.js"></script>
+    <!--bootstrap.js 引入-->
+    <script src="assets/js/bootstrap.js"></script>
+    <script>
+        function togglePassword(obj){
+            if($(obj).hasClass("eye-close")){
+                $(obj).next("input").prop("type","text");
+                $(obj).removeClass("eye-close").addClass("eye-open")
+            }else{
+                $(obj).next("input").prop("type","password");
+                $(obj).removeClass("eye-open").addClass("eye-close")
+            }
+        }
+    </script>
 </head>
 <body>
-$END$
+    <div class="login-wrapper">
+        <div class="login-box">
+            <h2>武汉易瑞信息技术股份有限公司</h2>
+            <div class="login-content">
+                <form class="form-vertical">
+                    <div class="form-group form-input-group">
+                        <input type="text" class="login-input login-username"/>
+                    </div>
+                    <div class="form-group form-input-group">
+                        <span class="password-show eye-close" onclick="togglePassword(this)"></span>
+                        <input type="password" class="login-input login-password"/>
+                    </div>
+                    <div class="form-group">
+                        <button class="login-btn">登录</button>
+                    </div>
+                    <div class="form-group">
+                        <label class="login-label">
+                            <input type="checkbox" class="remember"/>
+                            <span class="remember-checkbox"></span>
+                            <span class="remember-text">记住我的信息</span>
+                        </label>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="login-footer">©航空维修工程管理系统 2018</div>
+    </div>
 </body>
 </html>

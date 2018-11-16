@@ -1,0 +1,91 @@
+/*@login_color:#227446;
+@login-btn-border:#457c5d;
+@login-shadow-color:#20623e;*/
+body {
+    background: #4d7397;
+}
+.login-box {
+    width: 28.57142857em;
+    margin: 14.28571429em auto 0em;
+    padding: 1.42857143em;
+    background: #fff;
+    box-shadow: 5px 5px 5px #20405f;
+}
+.login-box h2 {
+    font-size: 1.28571429em;
+    text-align: center;
+    margin-top: 0px;
+}
+.login-box .login-content {
+    background: #f1f1f1;
+    overflow: hidden;
+    padding: 1.42857143em 1.42857143em 0em 1.42857143em;
+}
+.form-input-group {
+    position: relative;
+    border-left: 0.21428571em solid #e6be7b;
+}
+.form-input-group .login-input {
+    width: 100%;
+    border: 0.07142857em solid #fff;
+    height: 2.42857143em;
+    padding-left: 1.71428571em;
+    color: #afafaf;
+}
+.form-input-group .login-input.login-username {
+    background: #fff url('../img/login/username.png') no-repeat 5px 50%;
+}
+.form-input-group .login-input.login-password {
+    background: #fff url('../img/login/password.png') no-repeat 5px 50%;
+}
+.form-input-group .password-show {
+    width: 21px;
+    height: 30px;
+    position: absolute;
+    top: 0.21428571em;
+    right: 0.71428571em;
+    cursor: pointer;
+}
+.form-input-group .password-show.eye-close {
+    background: url('../img/login/eyeclose.png') no-repeat center;
+}
+.form-input-group .password-show.eye-open {
+    background: url('../img/login/eyeopen.png') no-repeat center;
+}
+.login-btn {
+    width: 100%;
+    border: 0.07142857em solid #4d7397;
+    background: #4d7397;
+    height: 2.42857143em;
+    font-size: 1.14285714em;
+    color: #fff;
+}
+.login-label {
+    position: relative;
+}
+.login-label .remember {
+    opacity: 0;
+}
+.login-label .remember-checkbox {
+    position: absolute;
+    width: 19px;
+    height: 19px;
+    left: 0em;
+    top: 0.21428571em;
+    background: url('../img/login/sprite.png') no-repeat 0em 0em;
+}
+.login-label .remember-text {
+    font-size: 14px;
+    font-weight: normal;
+    padding-left: 0.57142857em;
+}
+.login-label .remember:checked + span {
+    background: url('../img/login/sprite.png') no-repeat -5.42857143em 0em;
+}
+.login-footer {
+    font-size: 0.85714286em;
+    margin-top: 2.85714286em;
+    text-align: center;
+    color: #f1f1f1;
+}
+/*# sourceMappingURL=loginnew.css.map */
