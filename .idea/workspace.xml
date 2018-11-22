@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="67f8a6d9-d47c-4819-8811-9ad41fc15e08" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/loginnew.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/loginnew.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/loginnew.less" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/loginnew.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/loginnewq.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/loginnewq.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -20,11 +17,12 @@
     <session id="1996079833">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.20" value="1" />
+          <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -66,7 +64,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/css/loginnew.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
+            <state relative-caret-position="2604">
               <caret line="93" column="15" selection-start-line="93" selection-start-column="15" selection-end-line="93" selection-end-column="15" />
             </state>
           </provider>
@@ -75,8 +73,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/css/loginnew.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="403">
-              <caret line="80" column="1" lean-forward="true" selection-end-line="90" selection-end-column="40" />
+            <state relative-caret-position="2240">
+              <caret line="80" column="1" selection-end-line="90" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -84,8 +82,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/css/loginnewq.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="568">
-              <caret line="90" column="40" selection-start-line="90" selection-start-column="40" selection-end-line="90" selection-end-column="40" />
+            <state relative-caret-position="610">
+              <caret line="82" column="33" selection-start-line="82" selection-start-column="33" selection-end-line="82" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -118,7 +116,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/loginnew.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="557">
+            <state relative-caret-position="560">
               <caret line="20" column="61" lean-forward="true" selection-start-line="20" selection-start-column="61" selection-end-line="20" selection-end-column="61" />
             </state>
           </provider>
@@ -268,18 +266,18 @@
       <updated>1542176165701</updated>
       <workItem from="1542176171725" duration="5338000" />
       <workItem from="1542241909492" duration="10277000" />
-      <workItem from="1542347197682" duration="8689000" />
+      <workItem from="1542347197682" duration="9321000" />
+      <workItem from="1542524974730" duration="111000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24304000" />
+    <option name="totallyTimeSpent" value="25047000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24570674" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24372523" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -329,49 +327,49 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/img/login/loginsj.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/img/login/password.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/img/login/username.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/img/login/sprite.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/img/login/eyeopen.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/img/login/eyeclose.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/loginnew.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="557">
-          <caret line="20" column="61" lean-forward="true" selection-start-line="20" selection-start-column="61" selection-end-line="20" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/css/loginnew.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
+        <state relative-caret-position="2604">
           <caret line="93" column="15" selection-start-line="93" selection-start-column="15" selection-end-line="93" selection-end-column="15" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/css/loginnew.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="80" column="1" lean-forward="true" selection-end-line="90" selection-end-column="40" />
+        <state relative-caret-position="2240">
+          <caret line="80" column="1" selection-end-line="90" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/img/login/eyeopen.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/img/login/loginsj.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/img/login/password.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/img/login/sprite.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/img/login/username.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/loginnew.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="560">
+          <caret line="20" column="61" lean-forward="true" selection-start-line="20" selection-start-column="61" selection-end-line="20" selection-end-column="61" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/css/loginnewq.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="568">
-          <caret line="90" column="40" selection-start-line="90" selection-start-column="40" selection-end-line="90" selection-end-column="40" />
+        <state relative-caret-position="610">
+          <caret line="82" column="33" selection-start-line="82" selection-start-column="33" selection-end-line="82" selection-end-column="33" />
         </state>
       </provider>
     </entry>

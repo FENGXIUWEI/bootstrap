@@ -32,6 +32,7 @@ body {
     padding-left: 1.71428571em;
     color: #afafaf;
 }
+
 .form-input-group .login-input.login-username {
     background: #fff url('../img/login/username.png') no-repeat 5px 50%;
 }
@@ -47,10 +48,13 @@ body {
     cursor: pointer;
 }
 .form-input-group .password-show.eye-close {
-    background: url('../img/login/eyeclose.png') no-repeat center;
+    background:#fff url('../img/login/eyeclose.png') no-repeat center;
 }
 .form-input-group .password-show.eye-open {
-    background: url('../img/login/eyeopen.png') no-repeat center;
+    background:#fff url('../img/login/eyeopen.png') no-repeat center;
+}
+.login-password::-ms-clear{
+    display:none;
 }
 .login-btn {
     width: 100%;

@@ -1,0 +1,120 @@
+.navbar-default{
+    background: #438EB9;
+    min-height:40px;
+    border:0px;
+    border-radius:0px;
+}
+.header-brand{
+    height:40px;
+    padding:10px 15px;
+    color:white !important;
+}
+.px-nav {
+    height: 100%;
+    margin: 0px;
+}
+.px-nav li {
+    height: 40px;
+    line-height: 40px;
+    border-left: 1px solid #FFF;
+}
+.px-nav li.grey a {
+    background-color: #555555;
+}
+.px-nav li.grey:hover {
+    background-color: #4b4b4b;
+}
+.px-nav li.purple a {
+    background-color: #892e65;
+}
+.px-nav li.purple:hover {
+    background-color: #762c59;
+}
+.px-nav li.green a {
+    background-color: #2e8965;
+}
+.px-nav li.green:hover {
+    background-color: #2c7659;
+}
+.px-nav li.light-blue a {
+    background-color: #62a8d1;
+}
+.px-nav li.light-blue:hover {
+    background-color: #579ec8;
+}
+.px-nav li a {
+    height: 100%;
+    padding: 0px 8px;
+    color: #FFF !important;
+    line-height: 40px;
+}
+.px-nav li a .badge {
+    margin-top: -5px;
+}
+.px-nav li:first-child {
+    border-left: 0px;
+}
+/*.px-nav{
+    height:100%;
+    margin:0 !important;
+}
+.px-nav>li{
+    height：40px;
+    line-height:40px;
+    padding:0px;
+    border-left:1px solid #FFF;
+    position:relative;
+
+}
+.px-nav>li:first-child{
+    border-left:0px;
+}
+.px-nav>li>a{
+    display:block;
+    color:#FFF;
+    line-height:40px;
+    text-align:center;
+    height:100%;
+    padding:0px 8px;
+}
+.px-nav>li>a>i{
+    color:#FFF;
+}
+.px-nav>li>a>.badge{
+    margin-top:-5px;
+}
+.px-nav>li.grey>a{
+    background:#555555;
+}
+.px-nav>li.grey>a:hover{
+    background-color:#4b4b4b;
+}
+.px-nav>li.purple>a{
+    background:#892e65;
+}
+.px-nav>li.purple>a:hover{
+    background-color:#762c59;
+}
+.px-nav>li.green>a{
+    background-color:#2e8965;
+}
+.px-nav>li.green>a:hover{
+    background-color:#2c7659;
+}
+.px-nav>li.light-blue>a{
+    background-color:#62a8d1;
+}
+.px-nav>li.light-blue>a:hover,.px-nav>li.light-blue>a:focus{
+    background-color:#579ec8;
+}
+
+.badge-purple{
+   background-color:#d15b47;
+}
+.badge-green{
+   background-color:#82af6f;
+}
+.purple{
+    background-color:#892e65
+}*/
+
